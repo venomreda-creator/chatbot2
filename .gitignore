@@ -6,6 +6,7 @@ coverage/
 .vercel/
 .env*
 !.env.example
+supabase/bootstrap.sql
 *.tsbuildinfo
 npm-debug.log*
 yarn-debug.log*
