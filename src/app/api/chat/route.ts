@@ -4,6 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 
 
 export const runtime = "nodejs";
+export const maxDuration = 60;
 
 type StoredMessage = {
   role: "user" | "assistant";
